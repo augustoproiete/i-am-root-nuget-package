@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{2521F7CE-B785-4FCC-83F7-33FA6701DE60}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGES.md = CHANGES.md
+		CODEOWNERS = CODEOWNERS
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F6E0EE3-CCB7-45B0-BF55-50000562FEB1}"
+	ProjectSection(SolutionItems) = preProject
+		src\IAmRoot.nuspec = src\IAmRoot.nuspec
+		src\IAmRoot.targets = src\IAmRoot.targets
+		src\Readme.txt = src\Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "src\Sandbox\Sandbox.csproj", "{891FB99C-D94A-448F-BCEE-A8240EF1E3C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{891FB99C-D94A-448F-BCEE-A8240EF1E3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891FB99C-D94A-448F-BCEE-A8240EF1E3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891FB99C-D94A-448F-BCEE-A8240EF1E3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891FB99C-D94A-448F-BCEE-A8240EF1E3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{891FB99C-D94A-448F-BCEE-A8240EF1E3C1} = {7F6E0EE3-CCB7-45B0-BF55-50000562FEB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAABB73E-011D-44D4-B8CF-3195DB063894}
+	EndGlobalSection
+EndGlobal
