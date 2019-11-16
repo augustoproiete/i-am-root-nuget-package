@@ -26,3 +26,6 @@ Thumbs.db
 
 #Ignore files created by ReSharper
 _ReSharper*/
+
+#Ignore NuGet files
+.nuget/
