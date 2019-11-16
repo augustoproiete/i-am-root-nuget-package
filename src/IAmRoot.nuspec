@@ -6,6 +6,7 @@
     <authors>Caio Proiete</authors>
     <owners>caioproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/caioproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/caioproiete/i-am-root-nuget-package</projectUrl>
     <repository type="git" url="https://github.com/caioproiete/i-am-root-nuget-package" />
