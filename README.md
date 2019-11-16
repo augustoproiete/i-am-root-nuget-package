@@ -24,16 +24,12 @@ In [discussions](https://github.com/NuGet/Home/issues/6330), **many developers s
 
 Add the **[IAmRoot](https://www.nuget.org/packages/IAmRoot/)** package from [nuget.org](https://www.nuget.org/packages/IAmRoot/) in any project:
 
-```xml
-<PackageReference Include="IAmRoot" Version="1.0.0">
-  <PrivateAssets>all</PrivateAssets>
-  <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-</PackageReference>
-
+```powershell
+> dotnet add package IAmRoot
 ```
 or
 ```powershell
-Install-Package IAmRoot -Version 1.0.0
+PM> Install-Package IAmRoot
 ```
 
 Build the project where the `IAmRoot` NuGet package was installed:
