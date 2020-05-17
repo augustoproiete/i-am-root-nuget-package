@@ -39,6 +39,9 @@ Build the project where the `IAmRoot` NuGet package was installed:
 Your default internet browser should open and display the image below:
 ![I Am Root image](assets/i-am-root.jpg)
 
+## Release History
+
+Click on the [Releases](https://github.com/augustoproiete/i-am-root-nuget-package/releases) tab on GitHub.
 
 ---
 
