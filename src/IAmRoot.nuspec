@@ -1,21 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.5">
     <id>IAmRoot</id>
     <version>0.0.1-local</version>
-    <authors>Caio Proiete</authors>
-    <owners>caioproiete</owners>
+    <authors>C. Augusto Proiete</authors>
+    <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/caioproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
+    <releaseNotes>https://github.com/augustoproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/caioproiete/i-am-root-nuget-package</projectUrl>
-    <repository type="git" url="https://github.com/caioproiete/i-am-root-nuget-package" />
-    <iconUrl>https://raw.githubusercontent.com/caioproiete/i-am-root-nuget-package/master/assets/i-am-root-nuget-package-nuget.png</iconUrl>
+    <projectUrl>https://github.com/augustoproiete/i-am-root-nuget-package</projectUrl>
+    <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package" />
+    <iconUrl>https://raw.githubusercontent.com/augustoproiete/i-am-root-nuget-package/master/assets/i-am-root-nuget-package-nuget.png</iconUrl>
     <summary>Demonstrates that any NuGet package can run arbitrary code on your machine</summary>
     <description>Demonstrates that any NuGet package can run arbitrary code on your machine</description>
     <language>en-US</language>
     <tags>nuget security code powershell root iamroot groot</tags>
-    <copyright>Copyright (c) 2019 Caio Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
+    <copyright>Copyright (c) 2019-2020 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
     <developmentDependency>true</developmentDependency>
   </metadata>
   <files>

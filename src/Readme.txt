@@ -1,5 +1,5 @@
 # IAmRoot NuGet package
-https://github.com/caioproiete/i-am-root-nuget-package
+https://github.com/augustoproiete/i-am-root-nuget-package
 
 ---
 
@@ -16,5 +16,5 @@ Installing NuGet packages is (and have always been) a security risk, and you
 should only install packages from trusted sources and trusted authors.
 
 Thanks,
-Caio Proiete
-https://twitter.com/caioproiete
+C. Augusto Proiete
+https://augustoproiete.net
