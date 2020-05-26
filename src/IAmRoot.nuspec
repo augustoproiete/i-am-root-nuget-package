@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.5">
     <id>IAmRoot</id>
@@ -7,7 +7,7 @@
     <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/augustoproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
-    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/augustoproiete/i-am-root-nuget-package</projectUrl>
     <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package" />
     <iconUrl>https://raw.githubusercontent.com/augustoproiete/i-am-root-nuget-package/master/assets/i-am-root-nuget-package-nuget.png</iconUrl>
@@ -21,5 +21,6 @@
   <files>
     <file src="IAmRoot.targets" target="build\IAmRoot.targets" />
     <file src="Readme.txt" target="Readme.txt" />
+    <file src="..\LICENSE" target="\LICENSE" />
   </files>
 </package>
