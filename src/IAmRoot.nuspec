@@ -10,7 +10,7 @@
     <license type="file">LICENSE</license>
     <projectUrl>https://github.com/augustoproiete/i-am-root-nuget-package</projectUrl>
     <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package" />
-    <iconUrl>https://raw.githubusercontent.com/augustoproiete/i-am-root-nuget-package/master/assets/i-am-root-nuget-package-nuget.png</iconUrl>
+    <icon>images\icon.png</icon>
     <summary>Demonstrates that any NuGet package can run arbitrary code on your machine</summary>
     <description>Demonstrates that any NuGet package can run arbitrary code on your machine</description>
     <language>en-US</language>
@@ -22,5 +22,6 @@
     <file src="IAmRoot.targets" target="build\IAmRoot.targets" />
     <file src="Readme.txt" target="Readme.txt" />
     <file src="..\LICENSE" target="\LICENSE" />
+    <file src="..\assets\i-am-root-nuget-package-nuget.png" target="images\icon.png" />
   </files>
 </package>
