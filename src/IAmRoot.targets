@@ -13,7 +13,7 @@
 try
 {
 	ProcessStartInfo startInfo = new ProcessStartInfo();
-	startInfo.FileName = "https://raw.githubusercontent.com/caioproiete/i-am-root-nuget-package/master/assets/i-am-root.jpg";
+	startInfo.FileName = "https://raw.githubusercontent.com/augustoproiete/i-am-root-nuget-package/master/assets/i-am-root.jpg";
 	startInfo.UseShellExecute = true;
 
 	Process process = new Process();
