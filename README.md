@@ -1,11 +1,19 @@
-# IAmRoot NuGet Package [![NuGet Version](http://img.shields.io/nuget/v/IAmRoot.svg?style=flat)](https://www.nuget.org/packages/IAmRoot/)
-
-This project demonstrates that any NuGet package can run arbitrary code on your machine.
+<div align="center">
 
 ![I Am Root logo](assets/i-am-root-nuget-package-nuget.png)
 
+</div>
+
+<h1 align="center">IAmRoot NuGet Package</h1>
+<div align="center">
+
+This project demonstrates that any NuGet package can run arbitrary code on your machine.
+
+[![NuGet Version](http://img.shields.io/nuget/v/IAmRoot.svg?style=flat-square)](https://www.nuget.org/packages/IAmRoot/)
+
 > TL;DR; Installing NuGet packages **is** (_and have always been_) a security risk, and you should only install packages from trusted sources and trusted authors.
 
+</div>
 
 ## Background
 
