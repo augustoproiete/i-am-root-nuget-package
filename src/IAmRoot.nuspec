@@ -6,8 +6,8 @@
     <authors>C. Augusto Proiete</authors>
     <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
     <releaseNotes>https://github.com/augustoproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
-    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/augustoproiete/i-am-root-nuget-package</projectUrl>
     <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package" />
     <icon>images\icon.png</icon>
@@ -22,7 +22,6 @@
   <files>
     <file src="IAmRoot.targets" target="build\IAmRoot.targets" />
     <file src="Readme.txt" target="Readme.txt" />
-    <file src="..\LICENSE" target="\LICENSE" />
     <file src="..\assets\i-am-root-nuget-package-nuget.png" target="images\icon.png" />
   </files>
 </package>
