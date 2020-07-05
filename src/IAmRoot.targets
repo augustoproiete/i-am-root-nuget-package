@@ -30,7 +30,9 @@ catch(Exception ex)
 		</Task>
 	</UsingTask>
 
-	<Target Name="IAmRootDemo" BeforeTargets="AfterBuild">
+	<Target Name="IAmRootDemo"
+	        BeforeTargets="AfterBuild"
+	        Condition=" '$(BuildingByReSharper)' != 'true' ">
 		<Message Importance="High" Text="Hey! I can execute arbitrary code on your machine every time you build this project!" />
 		<IAmRoot />
 	</Target>
