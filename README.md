@@ -1,6 +1,9 @@
+| README.md |
+|:---|
+
 <div align="center">
 
-![I Am Root logo](assets/i-am-root-nuget-package-nuget.png)
+<img src="assets/i-am-root-nuget-package-nuget.png" alt="IAmRoot NuGet Package" width="100" />
 
 </div>
 
@@ -9,7 +12,7 @@
 
 This project demonstrates that any NuGet package can run arbitrary code on your machine.
 
-[![NuGet Version](http://img.shields.io/nuget/v/IAmRoot.svg?style=flat-square)](https://www.nuget.org/packages/IAmRoot/)
+[![NuGet Version](http://img.shields.io/nuget/v/IAmRoot.svg?style=flat-square)](https://www.nuget.org/packages/IAmRoot/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-nuget-orange.svg)](http://stackoverflow.com/questions/tagged/nuget)
 
 > TL;DR; Installing NuGet packages **is** (_and have always been_) a security risk, and you should only install packages from trusted sources and trusted authors.
 
@@ -28,7 +31,7 @@ In [discussions](https://github.com/NuGet/Home/issues/6330), **many developers s
 > Installing NuGet packages **is** (_and have always been_) a security risk, and you should only install packages from trusted sources and trusted authors.
 
 
-## How to Run
+## How to Run :rocket:
 
 Add the **[IAmRoot](https://www.nuget.org/packages/IAmRoot/)** package from [nuget.org](https://www.nuget.org/packages/IAmRoot/) in any project:
 
