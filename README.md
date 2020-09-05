@@ -56,4 +56,4 @@ Click on the [Releases](https://github.com/augustoproiete/i-am-root-nuget-packag
 
 ---
 
-_Copyright &copy; 2019-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html). Groot logo is a derivative of work by [Vectto](https://www.iconfinder.com/vectto) ([original](https://www.iconfinder.com/icons/2624888/fighting_free_free_groot_super_hero_icon))._
+_Copyright &copy; 2019-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](LICENSE). Groot logo is a derivative of work by [Vectto](https://www.iconfinder.com/vectto) ([original](https://www.iconfinder.com/icons/2624888/fighting_free_free_groot_super_hero_icon))._
