@@ -7,9 +7,8 @@
     <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
-    <releaseNotes>https://github.com/augustoproiete/i-am-root-nuget-package/releases/tag/v$version$</releaseNotes>
     <projectUrl>https://github.com/augustoproiete/i-am-root-nuget-package</projectUrl>
-    <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package" />
+    <repository type="git" url="https://github.com/augustoproiete/i-am-root-nuget-package.git" />
     <icon>images\icon.png</icon>
     <iconUrl>https://raw.githubusercontent.com/augustoproiete/i-am-root-nuget-package/master/assets/i-am-root-nuget-package-nuget.png</iconUrl>
     <summary>Demonstrates that any NuGet package can run arbitrary code on your machine</summary>
