@@ -50,7 +50,10 @@ catch(Exception ex)
 	<Target Name="IAmRootDemo"
 	        BeforeTargets="AfterBuild"
 	        Condition=" '$(BuildingByReSharper)' != 'true' ">
-		<Message Importance="High" Text="Hey! I can execute arbitrary code on your machine every time you build this project!" />
 		<IAmRoot />
+
+		<Warning
+			Code="IAmRoot"
+			Text="Hey! I can execute arbitrary code on your machine every time you build this project!" />
 	</Target>
 </Project>
