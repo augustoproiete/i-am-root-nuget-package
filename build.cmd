@@ -1,25 +1,11 @@
-@echo off
-setlocal
+@echo on
+@cd %~dp0
 
-cd %~dp0
+set DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
+set DOTNET_CLI_TELEMETRY_OPTOUT=1
+set DOTNET_NOLOGO=1
 
-set _version=%~1
-if "%_version%"=="" set _version=0.0.1-local
+dotnet tool restore
+@if %ERRORLEVEL% neq 0 goto :eof
 
-set CACHED_NUGET=%LocalAppData%\NuGet\NuGet.exe
-
-if exist %CACHED_NUGET% goto copynuget
-echo Downloading latest version of NuGet.exe...
-if not exist %LocalAppData%\NuGet mkdir %LocalAppData%\NuGet
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest 'https://dist.nuget.org/win-x86-commandline/latest/nuget.exe' -OutFile '%CACHED_NUGET%'"
-
-:copynuget
-if exist .nuget\NuGet.exe goto run
-mkdir .nuget
-copy %CACHED_NUGET% .nuget\NuGet.exe > nul
-.nuget\NuGet.exe Update -Self
-
-:run
-if not exist out mkdir out
-.nuget\NuGet.exe pack "src\IAmRoot.nuspec" -Version %_version% -NoPackageAnalysis -NonInteractive -OutputDirectory out
-goto :eof
+dotnet cake %*
