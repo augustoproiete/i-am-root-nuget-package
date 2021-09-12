@@ -1,4 +1,4 @@
-#tool "nuget:?package=NuGet.CommandLine&version=5.10.0"
+#tool "nuget:?package=NuGet.CommandLine&version=5.11.0"
 
 #addin "nuget:?package=Cake.MinVer&version=1.0.1"
 #addin "nuget:?package=Cake.Args&version=1.0.1"
