@@ -1,7 +1,7 @@
 #tool "nuget:?package=NuGet.CommandLine&version=5.11.0"
 
-#addin "nuget:?package=Cake.MinVer&version=1.0.1"
-#addin "nuget:?package=Cake.Args&version=1.0.1"
+#addin "nuget:?package=Cake.MinVer&version=2.0.0"
+#addin "nuget:?package=Cake.Args&version=2.0.0"
 
 var target       = ArgumentOrDefault<string>("target") ?? "pack";
 var buildVersion = MinVer(s => s.WithTagPrefix("v").WithDefaultPreReleasePhase("preview"));
@@ -47,7 +47,7 @@ Task("push")
         return;
     }
 
-    var nugetPushSettings = new DotNetCoreNuGetPushSettings
+    var nugetPushSettings = new DotNetNuGetPushSettings
     {
         Source = url,
         ApiKey = apiKey,
@@ -55,7 +55,7 @@ Task("push")
 
     foreach (var nugetPackageFile in GetFiles("./artifact/nuget/*.nupkg"))
     {
-        DotNetCoreNuGetPush(nugetPackageFile.FullPath, nugetPushSettings);
+        DotNetNuGetPush(nugetPackageFile.FullPath, nugetPushSettings);
     }
 });
 
