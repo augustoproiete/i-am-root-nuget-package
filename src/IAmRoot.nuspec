@@ -15,7 +15,7 @@
     <description>Demonstrates that any NuGet package can run arbitrary code on your machine</description>
     <language>en-US</language>
     <tags>nuget security code powershell root iamroot groot</tags>
-    <copyright>Copyright (c) 2019-2021 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
+    <copyright>Copyright (c) 2019-2023 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
   </metadata>
   <files>
     <file src="IAmRoot.targets" target="build\IAmRoot.targets" />
